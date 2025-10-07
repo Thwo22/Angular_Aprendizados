@@ -4,11 +4,12 @@ import { FirstComponentComponent } from './components/first-component/first-comp
 import { SecondComponentComponent } from './components/second-component/second-component.component';  
 import { TesteConsolidacaoComponent } from './components/teste-consolidacao/teste-consolidacao.component';
 import { ParentDataComponent } from './components/parent-data/parent-data.component';
+import { DirectivesComponent } from './components/directives/directives.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, FirstComponentComponent, SecondComponentComponent, TesteConsolidacaoComponent, ParentDataComponent],
+  imports: [RouterOutlet, FirstComponentComponent, SecondComponentComponent, TesteConsolidacaoComponent, ParentDataComponent, DirectivesComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
