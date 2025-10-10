@@ -10,8 +10,13 @@ import { Component } from '@angular/core';
 })
 export class EventosComponent {
   show:boolean = false;
+  showTwo:boolean = true;
 
   showMessage(): void {
     this.show = !this.show;
+  }
+
+  showMessageTwo(): void {
+    this.showTwo = !this.showTwo;
   }
 }
