@@ -7,11 +7,14 @@ import { ParentDataComponent } from './components/parent-data/parent-data.compon
 import { DirectivesComponent } from './components/directives/directives.component';
 import { IfRenderComponent } from './components/if-render/if-render.component'; 
 import { EventosComponent } from './components/eventos/eventos.component';  
+import { EmitterComponent } from './components/emitter/emitter.component';
+import { FrutasListaComponent } from './components/frutas-lista/frutas-lista.component';
+import { ListRenderComponent } from './components/list-render/list-render.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, FirstComponentComponent, SecondComponentComponent, TesteConsolidacaoComponent, ParentDataComponent, DirectivesComponent, IfRenderComponent, EventosComponent],
+  imports: [RouterOutlet, FirstComponentComponent, SecondComponentComponent, TesteConsolidacaoComponent, ParentDataComponent, DirectivesComponent, IfRenderComponent, EventosComponent, EmitterComponent, FrutasListaComponent, ListRenderComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
