@@ -10,11 +10,12 @@ import { EventosComponent } from './components/eventos/eventos.component';
 import { EmitterComponent } from './components/emitter/emitter.component';
 import { FrutasListaComponent } from './components/frutas-lista/frutas-lista.component';
 import { ListRenderComponent } from './components/list-render/list-render.component';
+import { PipesComponent } from './components/pipes/pipes.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, FirstComponentComponent, SecondComponentComponent, TesteConsolidacaoComponent, ParentDataComponent, DirectivesComponent, IfRenderComponent, EventosComponent, EmitterComponent, FrutasListaComponent, ListRenderComponent],
+  imports: [RouterOutlet, FirstComponentComponent, SecondComponentComponent, TesteConsolidacaoComponent, ParentDataComponent, DirectivesComponent, IfRenderComponent, EventosComponent, EmitterComponent, FrutasListaComponent, ListRenderComponent, PipesComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
